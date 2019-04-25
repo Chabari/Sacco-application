@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "794615161196",
+    "firebase_url": "https://mhadhiri-460af.firebaseio.com",
+    "project_id": "mhadhiri-460af",
+    "storage_bucket": "mhadhiri-460af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794615161196:android:bc4c31d60f4d59ba",
+        "android_client_info": {
+          "package_name": "com.george.mhadhirisaccoltd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794615161196-uv64dc2m8pu51dq1290368amke1phf2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.george.mhadhirisaccoltd",
+            "certificate_hash": "963619f2e86a2df20e797993774aadfe25c4f183"
+          }
+        },
+        {
+          "client_id": "794615161196-p4n2qonrm818js07o2jh69nlk6ledjqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbL3H__7j8dDnK1jC0otPH0caueyR7iAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794615161196-p4n2qonrm818js07o2jh69nlk6ledjqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

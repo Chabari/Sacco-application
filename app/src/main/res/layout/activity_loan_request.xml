@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainIssues.Loans.LoanRequest"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loan Application"
+        android:textAlignment="center"
+        android:background="@color/Black"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_membernumber"
+            android:text="Fullname"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_idnumber"
+            android:layout_marginLeft="8dp"
+            android:text="Fullname"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fullname"
+            android:layout_marginLeft="8dp"
+            android:text="Fullname"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_email"
+            android:layout_marginLeft="8dp"
+            android:text="Fullname"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_phonenumber"
+            android:layout_marginLeft="8dp"
+            android:text="Fullname"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:background="@color/white">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white"
+            android:background="@color/white"
+            app:cardCornerRadius="10dp"
+            app:contentPadding="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                >
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="2dp">
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:id="@+id/edt_amount"
+                        android:hint="amount to request"
+                        android:inputType="number"
+                        android:textColorHint="@color/Gray"
+                        android:drawableTintMode="multiply"
+                        android:drawablePadding="10dp"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/sp_loancats"
+                    android:entries="@array/LoanCats"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_request"
+            android:theme="@style/PrimaryButton"
+            android:text="submit request"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

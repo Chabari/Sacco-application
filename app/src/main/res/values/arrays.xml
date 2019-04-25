@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Universities">
+        <item>Affiliated University</item>
+        <item>University of Kabianga</item>
+        <item>University of Nairobi</item>
+        <item>Moi University</item>
+        <item>Pwani University</item>
+        <item>Meru University</item>
+        <item>Kenyatta University</item>
+        <item>JKUAT</item>
+        <item>Egerton University</item>
+        <item>Rongo University</item>
+        <item>Chuka University</item>
+        <item>Masinde Muliro University</item>
+        <item>Technical University of Kenya</item>
+        <item>Technical University of Mombasa</item>
+        <item>Multimedia University</item>
+        <item>Laikipia University</item>
+        <item>Maasai Mara University</item>
+        <item>Kisii University</item>
+        <item>Maseno University</item>
+        <item>Riara University</item>
+        <item>USIU</item>
+        <item>Strathmore University</item>
+        <item>Mount Kenya University</item>
+        <item>Kibabii University</item>
+        <item>University of Eldoret</item>
+        <item>Daystar University</item>
+        <item>South Eastern University</item>
+        <item>Embu University</item>
+        <item>Kabarak University</item>
+        <item>Dedan Kimathi University</item>
+        <item>Karatina University</item>
+        <item>Catholic University</item>
+        <item>Zetech University</item>
+        <item>KCA University</item>
+        <item>Kenya Utalii College</item>
+        <item>Kenya Methodist University</item>
+        <item>Machakos University</item>
+        <item>African Nazarene University</item>
+        <item>University of Eastern Africa Baraton</item>
+        <item>Kirinyaga University</item>
+        <item>Kenya School of Law</item>
+        <item>Jaramogi Oginga Odinga University</item>
+        <item>Tangaza University</item>
+        <item>Kisumu Polytechnic</item>
+    </string-array>
+    <string-array name="LoanCats">
+        <item>Select Category</item>
+        <item>Long Term Loan</item>
+        <item>Short Term Loan</item>
+    </string-array>
+
+    <string-array name="PaymentType">
+        <item>Payment Type</item>
+        <item>Pay Loan</item>
+        <item>Make Deposit</item>
+    </string-array>
+
+    <string-array name="StatementTypes">
+        <item>--Select--</item>
+        <item>Mini Statement</item>
+        <item>Full Statement</item>
+    </string-array>
+</resources>

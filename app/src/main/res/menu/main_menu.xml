@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/action_viewrequests"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Membership Requests"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_view_loan_requests"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Loan Requests"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+
+
+    <item
+        android:id="@+id/action_viewusers"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="View Users"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_requestloan"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Loan"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/action_account"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_Account"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/action_membership"
+        android:icon="@drawable/ic_group_add_black_24dp"
+        android:title="@string/title_join"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_statement"
+        android:icon="@drawable/logouticon"
+        android:title="@string/title_statement"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/logouticon"
+        android:title="Share"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_rate_us"
+        android:icon="@drawable/logouticon"
+        android:title="Rate Us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/logouticon"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/logouticon"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+</menu>

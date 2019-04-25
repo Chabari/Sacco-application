@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_home"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.george.mhadhirisaccoltd.MainIssues.Fragments.Home"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fitsSystemWindows="true"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Member"
+        android:id="@+id/tv_Membership"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:textColor="@color/red"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Mhadhiri Sacco Ltd"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:elevation="8dp"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:background="@color/PowderBlue"
+        android:layout_marginTop="8dp"
+        android:text="Welcome"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_gravity="bottom"
+        android:textAlignment="center"
+        android:text="NB: This is a prototype for all the details that you will provide will be taken as sample data"/>
+
+</LinearLayout>
